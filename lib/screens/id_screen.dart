@@ -217,7 +217,7 @@ class _IDScreenState extends State<IDScreen> {
                   child: SizedBox(
                       width: double.maxFinite,
                       child: ApexButtonWidget(
-                        text: 'Sign In',
+                        text: 'Continue',
                         onPressed: () {
                           if (validatePassword(passwordController.text)) {
 

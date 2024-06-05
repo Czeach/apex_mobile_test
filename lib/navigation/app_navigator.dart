@@ -1,4 +1,5 @@
 import 'package:apex_mobile_test/navigation/app_routes.dart';
+import 'package:apex_mobile_test/screens/confirmation_screen.dart';
 import 'package:apex_mobile_test/screens/id_screen.dart';
 import 'package:apex_mobile_test/screens/login_screen.dart';
 import 'package:apex_mobile_test/screens/onboarding_screen.dart';
@@ -56,7 +57,7 @@ class AppNavigator {
             pageBuilder: (context, animation, secondaryAnimation) {
           return ScaleTransition(
                 scale: animation,
-                child: const LoginScreen(),
+                child: const ConfirmationScreen(),
               );
         });
       default:
